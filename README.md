@@ -4,11 +4,13 @@ A beginner-friendly Python console application that interactively collects a use
 
 Built for **PR. 1: Fundamental Booster** — Red & White Skill Education.
 
-1. ## Overview
+---
+
+## Overview
 
 This project is an **Interactive Personal Data Collector** that captures a user's name, age, height, and favourite number, then displays a formatted summary showing each value's type and memory address, along with an estimated birth year.
 
-2. ## Objective
+## Objective
 
 Create an Interactive Personal Data Collector application in Python that captures, processes, and displays personal information from the user using fundamental Python concepts:
 
@@ -17,25 +19,25 @@ Create an Interactive Personal Data Collector application in Python that capture
 - Type casting
 - Built-in `id()` and `type()` functions
 
-3. ## Features
+## Features
 
 - Collects four pieces of user data with clear, guided prompts
 - Casts input to the correct data type (`str`, `int`, `float`)
-- Displays each variable's **value**, **data type**, and **memory address**
-- Calculates an approximate **birth year** using arithmetic operators
+- Displays each variable's value, data type, and memory address
+- Calculates an approximate birth year using arithmetic operators
 - Clean, formatted console output from start to finish
 
-4. ## Program Flow
+## Program Flow
 
 | Step | Stage | Description |
-|---|---|---|
-| 1 | **Welcome & Instructions** | Display a welcome message and a brief description of the program |
-| 2 | **Collect Information** | Prompt the user for name (`str`), age (`int`), height (`float`), and favourite number (`int`) |
-| 3 | **Data Processing** | Compute the approximate birth year from age; capture each variable's type and memory address |
-| 4 | **Display Results** | Print a user-friendly summary of all collected data and type-conversion details |
-| 5 | **Exit Message** | Thank the user and end the program |
+|------|-------|-------------|
+| 1 | Welcome & Instructions | Display a welcome message and a brief description of the program |
+| 2 | Collect Information | Prompt the user for name (`str`), age (`int`), height (`float`), and favourite number (`int`) |
+| 3 | Data Processing | Compute the approximate birth year from age; capture each variable's type and memory address |
+| 4 | Display Results | Print a user-friendly summary of all collected data and type-conversion details |
+| 5 | Exit Message | Thank the user and end the program |
 
-5. ## Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -57,17 +59,15 @@ python fundamantal_Booster.py
 
 You'll be prompted to enter:
 
-1. Your name
-2. Your age
-3. Your height (in meters)
-4. Your favourite number
+- Your name
+- Your age
+- Your height (in meters)
+- Your favourite number
 
-
-6. ## Example Output
+## Example Output
 
 ```
 Welcome to the interactive Personal Data Collecter!
-
 Please enter your name: Alice
 Please enter your age: 25
 Please enter your height in meters: 1.68
@@ -85,10 +85,11 @@ Your birth year is approximately: 2001 (based on your age of 25)
 Thank you for using the Personal Data Collector. Goodbye!
 ```
 
-7. ## Project Video
-   Project link
-   
-8. ## Project Structure
+## Project Video
+
+[Project link](#)
+
+## Project Structure
 
 ```
 fundamental-booster/
@@ -96,19 +97,17 @@ fundamental-booster/
 └── README.md                # Project documentation
 ```
 
-9. ## Assumptions
+## Assumptions
 
 - The user enters valid input types when prompted (e.g., a numeric value for age); no input validation or error handling is implemented, as it wasn't part of the stated requirements.
-- "Birth year" is a simple approximation (`current year − age`) and does not account for whether the user has already had their birthday this year.
-- The reference year used for the birth-year calculation is fixed at `2026`, matching when this project was built. A fully dynamic version could use `datetime.date.today().year` instead.
+- "Birth year" is a simple approximation (current year − age) and does not account for whether the user has already had their birthday this year.
+- The reference year used for the birth-year calculation is fixed at 2026, matching when this project was built. A fully dynamic version could use `datetime.date.today().year` instead.
 
-10. ## Tech Stack
+## Tech Stack
 
 - **Language:** Python 3
 - **Concepts demonstrated:** `input()`/`print()`, variables & data types, type casting, arithmetic operators, `type()`, `id()`
 
-11. ## Content Me
+## Contact Me
 
- Gmail : shreyanghan205@gmail.com
-    
-
+**Gmail:** shreyanghan205@gmail.com

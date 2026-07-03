@@ -205,12 +205,6 @@ You'll be prompted to enter:
 
 ---
 
-## 🎥 Project Video
-
-[Project link](#)
-
----
-
 ## 📁 Project Structure
 
 ```

@@ -175,7 +175,7 @@ Thank you for using the Personal Data Collector. Goodbye!
 
 ## ✅ Video
 
-Link : https://drive.google.com/drive/folders/1VgNOKID6L0mhJ0mrD0pcZzWWdexqvZAd
+Link : https://drive.google.com/drive/folders/1VgNOKID6L0mhJ0mrD0pcZzWWdexqvZAd?usp=sharing
 
 ## 🚀 Getting Started
 
